@@ -9677,10 +9677,10 @@ h1 { margin: 0px; height: 91px; }
 
     <div class="banner">
       <div id="coinLogo">
-        <img id="coinLogoImg" src="logos/bifrost.png" alt="Open Source Client-Side Wallet Generator" />
+        <img id="coinLogoImg" src="logos/masterbitpos.png" alt="Open Source Client-Side Wallet Generator" />
       </div>
       <h4>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bifrost Paper Wallet Generator
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MasterBitPOS Paper Wallet Generator
       </h4>
     </div>
 
@@ -10039,7 +10039,7 @@ Walletgenerator.net use the same security measures as the original project. All-
 
     <div id="footer" class="footer">
       <div>
-        <span class="item"><a id="footersupport" href="#" onclick="ninja.tabSwitch(document.getElementById('donate'));" class="i18n">Support Bifrost Paper Wallet Generator</a></span>
+        <span class="item"><a id="footersupport" href="#" onclick="ninja.tabSwitch(document.getElementById('donate'));" class="i18n">Support MasterBitPOS Paper Wallet Generator</a></span>
       </div>
       <div class="copyright">
         <span id="footerlabelcopyright1">Copyright WalletGenerator.net.</span>
@@ -10217,7 +10217,7 @@ janin.currency = {
 
 janin.currencies = [
     //                              name, networkVersion, privateKeyPrefix, WIF_Start, CWIF_Start, donate
-    janin.currency.createCurrency ("Bifrost",            0x19, 0x99, "6", "P"    , "B8y9kEdisXYqmfhdjoSwaDmXnQS5MuP5dc")
+    janin.currency.createCurrency ("MasterBitPOS",            0x19, 0x99, "6", "P"    , "B8y9kEdisXYqmfhdjoSwaDmXnQS5MuP5dc")
                    ];
 
   </script>
@@ -12976,7 +12976,7 @@ if (ninja.getQueryString()["showseedpool"] == "true" || ninja.getQueryString()["
 	document.getElementById("seedpoolarea").style.display = "block";
 }
 // change currency
-var currency = ninja.getQueryString()["currency"] || "bifrost";
+var currency = ninja.getQueryString()["currency"] || "masterbitpos";
 currency = currency.toLowerCase();
 for(i = 0; i < janin.currencies.length; i++) {
 	if (janin.currencies[i].name.toLowerCase() == currency)

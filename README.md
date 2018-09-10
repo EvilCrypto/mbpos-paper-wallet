@@ -1,4 +1,4 @@
-BiFrost Coin Paper Wallet Generator
+MasterBitPOS Coin Paper Wallet Generator
 -----------------------------------
 
 Simple Instructions:
